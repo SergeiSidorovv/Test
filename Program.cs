@@ -12,11 +12,14 @@ int count = int.Parse(Console.ReadLine());
 
 string[] enteredArray = GettArray(count);
 Console.WriteLine();
+
 PrintArray(enteredArray);
 Console.WriteLine();
+
 int countStrings = CountStringsWhereLessThreeSymbols(enteredArray);
 string[] newArray = ArrayWithLessThreeSymbolsInString(countStrings, enteredArray);
 Console.WriteLine();
+
 PrintArray(newArray);
 
 string[] GettArray(int countStr)
